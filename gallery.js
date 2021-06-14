@@ -78,7 +78,7 @@ function onKeyPress(evt) {
   const arrowLeft = evt.code === 'ArrowLeft';
 
    if (arrowRight || arrowLeft) {
-    showSlides();
+    showSlides(arrowRight);
   }
 }
 
