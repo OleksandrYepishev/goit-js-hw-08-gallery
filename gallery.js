@@ -82,10 +82,10 @@ function onKeyPress(evt) {
   }
 }
 
-function showSlides(arrow) {
+function showSlides(arrowR) {
   let slideIndex;
 
-  if (arrow) { slideIndex = Number(refs.lightboxImage.dataset.index) + 1; }
+  if (arrowR) { slideIndex = Number(refs.lightboxImage.dataset.index) + 1; }
   else { slideIndex = Number(refs.lightboxImage.dataset.index) - 1; }
 
 
